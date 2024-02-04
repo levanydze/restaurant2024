@@ -15,6 +15,7 @@ export default function MenuPage() {
     <div>
       <PageHeadImage value="OUR DELICIOUS MENU" image={menuPagePhoto} />
       <Suspense fallback={<LoadingDiv />}>
+        <MenuList category="pizza" />
         <MenuList category="breakfast" />
         <MenuList category="lunch" />
         <MenuList category="dinner" />
