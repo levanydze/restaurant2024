@@ -22,7 +22,6 @@ export default function MenuPage() {
         <MenuList category="popular" />
         <MenuList category="must try" />
         <MenuList category="we reccomend" />
-        <MenuList category="dinner" />
         <MenuList category="dessert" />
         <MenuList category="drink" />
       </Suspense>
