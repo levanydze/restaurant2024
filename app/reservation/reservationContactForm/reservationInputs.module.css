@@ -1,0 +1,72 @@
+.form {
+  height: 100%;
+  width: 100%;
+  color: var(--darkLight);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.form div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.input {
+  height: 50px;
+  padding: 0 20px;
+  border: 1px solid var(--darkLight);
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+.input:focus {
+  outline: none;
+  border: 2px solid var(--primaryColor);
+}
+
+.textArea {
+  padding-top: 20px;
+  height: 200px;
+  resize: none;
+}
+
+.buttonSend {
+  margin: 0 auto;
+  font-size: 20px;
+  width: 100%;
+}
+.formSent {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  height: 100%;
+  font-size: 50px;
+  color: var(--primaryColor);
+  text-align: center;
+  width: 70%;
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+.formSent h5 {
+  color: var(--red);
+  padding-top: 30px;
+  font-size: 25px;
+}
+
+.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+.none {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .form div {
+    flex-direction: column;
+    gap: 5px;
+  }
+}

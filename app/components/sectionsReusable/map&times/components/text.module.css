@@ -1,0 +1,42 @@
+.textWrap {
+  width: 100%;
+  border: 1px solid var(--darkLight);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4%;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.textWrap p {
+  font-size: 13px;
+}
+
+.textWrap h2 {
+  font-family: var(--font-primary);
+  color: var(--secondaryColor);
+}
+.textWrap img {
+  margin: 0 auto;
+}
+
+.addres {
+  color: var(--textMedium);
+  width: 80%;
+  margin: 0 auto;
+}
+
+.email {
+  color: black;
+}
+.number {
+  color: var(--red);
+}
+
+@media (max-width: 650px) {
+  .textWrap {
+    padding: 20px;
+  }
+}

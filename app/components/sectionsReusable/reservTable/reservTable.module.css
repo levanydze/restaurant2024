@@ -1,0 +1,23 @@
+.reservTableWrap {
+  height: 300px;
+  width: 100%;
+  background-color: var(--secondaryColor);
+  color: var(--textWhite);
+  font-family: var(--font-primary);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  border: 10px solid var(--outlineColor);
+  transition: 0.8s ease;
+  cursor: pointer;
+  font-size: 30px;
+}
+.reservTableWrap:hover {
+  border: 10px solid var(--primaryColor);
+}
+.reservTableWrap img {
+  margin: 0 auto;
+  scale: 0.7;
+}

@@ -1,0 +1,131 @@
+.cardWrapper {
+  width: 350px;
+  height: 450px;
+  margin: 1% 0;
+}
+
+.cardWrapper img {
+  object-fit: cover;
+  width: 100%;
+  height: 80%;
+}
+
+/* .cardInfoDiv {
+} */
+.dotted {
+  border-bottom: 1px dotted var(--secondaryColor);
+  width: 100%;
+  flex: 1;
+}
+
+.namePrice {
+  margin-top: 5px;
+  display: flex;
+}
+
+.cardWrapper h1 {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--textDark);
+}
+.cardWrapper h6 {
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--textDark);
+}
+.cardWrapper h2 {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--textMedium);
+  padding-top: 5px;
+}
+
+.details h5 {
+  color: var(--textDark);
+  font-size: 14px;
+  font-weight: 400;
+}
+.details {
+  display: flex;
+  gap: 5px;
+}
+
+@media (max-width: 1200px) {
+  .cardWrapper {
+    width: 300px;
+    height: 400px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .cardWrapper {
+    width: 300px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cardWrapper {
+    height: 350px;
+  }
+}
+
+/* detail info styles */
+
+.details {
+  font-size: 12px;
+  margin-top: 10px;
+  height: 18px;
+}
+
+.vegan {
+  background-color: var(--vegan);
+  color: var(--textLight);
+  padding: 5px;
+  margin-top: -3px;
+  border-radius: 5px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 9px;
+}
+.special {
+  background-color: var(--primaryColor);
+  color: var(--textLight);
+  padding: 5px;
+  margin-top: -3px;
+  border-radius: 5px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 9px;
+}
+.season {
+  background-color: var(--season);
+  color: var(--textLight);
+  padding: 5px;
+  margin-top: -3px;
+  border-radius: 5px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 9px;
+}
+.spicy {
+  background-color: var(--spicy);
+  color: var(--textLight);
+  padding: 5px;
+  margin-top: -3px;
+  border-radius: 5px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 9px;
+}
+.newItem {
+  background-color: var(--new);
+  color: var(--textLight);
+  padding: 5px;
+  margin-top: -3px;
+  border-radius: 5px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 9px;
+}

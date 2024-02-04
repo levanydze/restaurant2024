@@ -1,0 +1,28 @@
+.reservationWrapper {
+  position: relative;
+  width: 60%;
+  max-width: 800px;
+  height: 700px;
+  border: 5px solid var(--primaryColor);
+  margin: -150px auto 0 auto;
+  z-index: 20;
+  margin-bottom: 100px;
+  background-color: var(--componentBGLight);
+}
+.reservation {
+  height: 100%;
+  padding: 10%;
+}
+
+@media (max-width: 800px) {
+  .reservationWrapper {
+    margin: 30px auto;
+    width: 80%;
+  }
+}
+
+@media (max-width: 450px) {
+  .reservationWrapper {
+    width: 90%;
+  }
+}

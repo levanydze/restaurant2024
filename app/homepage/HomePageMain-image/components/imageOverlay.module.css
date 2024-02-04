@@ -1,0 +1,131 @@
+.overlayWrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  color: var(--textWhite);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.empty {
+  width: 100%;
+  min-height: 50px;
+}
+.middle {
+  text-align: center;
+  width: 70%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  z-index: 2221;
+}
+.middle h2 {
+  font-family: var(--font3);
+  color: var(--primaryColor);
+  font-size: 35px;
+}
+.middle h1 {
+  font-size: 80px;
+  font-family: var(--font-primary);
+}
+.middle h3 {
+  font-size: 45px;
+  padding-bottom: 10%;
+  line-height: 25px;
+  font-family: var(--font-primary);
+  letter-spacing: 4px;
+}
+.middle h4 {
+  font-weight: 400;
+  margin: 10% auto 5% auto;
+  font-size: 18px;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  padding: 20px 0;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3% 3% 3%;
+}
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+.phoneNumber {
+  font-family: var(--font-primary);
+  font-size: 17px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.phoneIcon {
+  font-size: 22px;
+  margin-right: 20px;
+  padding-top: 5px;
+}
+
+@media (max-width: 950px) {
+  .middle {
+    width: 80%;
+  }
+  .middle h2 {
+    font-size: 17px;
+  }
+  .middle h1 {
+    font-size: 30px;
+  }
+  .middle h3 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding-bottom: 25px;
+  }
+  .middle h4 {
+    font-size: 14px;
+    margin-top: 30px;
+  }
+
+  .buttons {
+    padding: 0;
+    scale: 0.8;
+  }
+}
+
+@media (max-width: 750px) {
+  .middle {
+    width: 95%;
+  }
+  .middle h2 {
+    display: none;
+  }
+  .middle h4 {
+    margin: 5px auto;
+    font-size: 15px;
+    letter-spacing: 0;
+  }
+  .buttons {
+    padding: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .bottom {
+    display: none;
+  }
+
+  .middle h1 {
+    font-size: 24px;
+  }
+  .middle h3 {
+    font-size: 20px;
+  }
+}

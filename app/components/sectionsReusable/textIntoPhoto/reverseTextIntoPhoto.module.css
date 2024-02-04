@@ -1,0 +1,67 @@
+.TextIntoPhotoWrapper {
+  width: 95%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image {
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+  min-height: 600px;
+}
+
+.textDivWrapper {
+  width: 50%;
+  z-index: 1;
+  margin: auto -20%;
+  padding: 10px;
+  background-color: var(--componentBGLight);
+}
+.textDiv {
+  border: 1px solid var(--darkLight);
+  text-align: center;
+  padding: 15%;
+}
+.textDiv h2 {
+  font-family: var(--font-primary);
+  color: var(--textDark);
+}
+.textDiv p {
+  margin: 20px auto;
+}
+
+@media (max-width: 700px) {
+  .TextIntoPhotoWrapper {
+    margin-bottom: 200px;
+    flex-direction: column-reverse;
+  }
+  .textDivWrapper {
+    width: 70%;
+    margin: -20% auto;
+  }
+
+  .image {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .image {
+    min-height: 400px;
+  }
+  .textDiv h5 {
+    font-size: 14px;
+  }
+  .textDiv p {
+    margin: 10px auto;
+  }
+  .textDiv {
+    padding: 25px;
+  }
+  .TextIntoPhotoWrapper {
+    margin-bottom: 140px;
+  }
+}

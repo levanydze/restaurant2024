@@ -1,0 +1,30 @@
+.mainWrapper {
+  overflow: hidden;
+  position: relative;
+}
+.mainImage {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  margin-bottom: -25px;
+  max-height: 1500px;
+}
+.imageDarkLayer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: var(--imageOverlayDark);
+}
+
+@media (max-width: 1200px) {
+  .mainImage {
+    height: auto;
+  }
+}
+
+@media (max-width: 750px) {
+  .mainImage {
+    margin: -5px 0 -5px 0;
+  }
+}
