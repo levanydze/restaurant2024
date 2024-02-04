@@ -22,7 +22,7 @@ import imageJson from "../../json/images.json";
 //     description: menu.description,
 //   };
 // }
-//not Working and needs to be fixed
+//needs to be fixed!!!
 
 export const metadata = {
   title: "Our Delicious Food | ChaCha Restaurant",
