@@ -24,6 +24,11 @@ import imageJson from "../../json/images.json";
 // }
 //not Working and needs to be fixed
 
+export const metadata = {
+  title: "Our Delicious Food | ChaCha Restaurant",
+  description: "Delicious Food",
+};
+
 export default async function MenuDetailsPage({ params }) {
   const menuId = parseInt(params.menuId);
 
