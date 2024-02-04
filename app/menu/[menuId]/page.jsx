@@ -4,10 +4,10 @@ import { RiArrowGoBackFill } from "react-icons/ri";
 
 import styles from "./page.module.css";
 import MenuDetails from "./menuDetails/menuDetails";
-import PageHeadImage from "@/app/components/sectionsReusable/pageHeadImage/pageHeadImage";
-import LoadingDiv from "@/app/components/sectionsReusable/error - loading/loadingDiv";
+import PageHeadImage from "../../components/sectionsReusable/pageHeadImage/pageHeadImage";
+import LoadingDiv from "../../components/sectionsReusable/error - loading/loadingDiv";
 
-import imageJson from "@/app/json/images.json";
+import imageJson from "../../json/images.json";
 
 // import { getMenu } from "@/lib/menusData";
 // import { notFound } from "next/navigation";
@@ -22,6 +22,7 @@ import imageJson from "@/app/json/images.json";
 //     description: menu.description,
 //   };
 // }
+//not Working and needs to be fixed
 
 export default async function MenuDetailsPage({ params }) {
   const menuId = parseInt(params.menuId);
