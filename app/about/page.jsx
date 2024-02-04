@@ -6,10 +6,6 @@ import TextIntoPhoto from "../components/sectionsReusable/textIntoPhoto/textInto
 import ReverseTextIntoPhoto from "../components/sectionsReusable/textIntoPhoto/reverseTextIntoPhoto";
 import PhotoText from "../components/sectionsReusable/photoText/photoText";
 import FourBox from "../components/sectionsReusable/fourBox/fourBox";
-export const metadata = {
-  title: "About | ChaCha Restaurant",
-  description: "Delicious Food",
-};
 
 export default function AboutPage() {
   const { aboutPagePhoto, PhotoTextImage } = imagesJson;

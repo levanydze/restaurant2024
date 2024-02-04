@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./menuDetails.module.css";
 import Image from "next/image";
-import { getMenu } from "../../../../lib/menusData";
+import { getMenu } from "@/lib/menusData";
 
 export default async function MenuDetails({ menuId }) {
   const data = await getMenu(menuId);
