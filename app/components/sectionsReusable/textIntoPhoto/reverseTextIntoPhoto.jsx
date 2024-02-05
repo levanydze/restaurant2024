@@ -5,13 +5,13 @@ import assetsJson from "../../../json/assets.json";
 import Image from "next/image";
 
 export default function ReverseTextIntoPhoto() {
-  const { chair } = assetsJson;
+  const { apple } = assetsJson;
   const { textIntoPhoto2 } = imagesJson;
   return (
     <div className={styles.TextIntoPhotoWrapper}>
       <div className={styles.textDivWrapper}>
         <div className={styles.textDiv}>
-          <Image src={chair} alt="chair" width={60} height={60}></Image>
+          <Image src={apple} alt="apple" width={60} height={60}></Image>
           <h2>BEAUTIFUL INTERIOR</h2>
           <p className="twoLines"></p>
           <h5 className="text1">
