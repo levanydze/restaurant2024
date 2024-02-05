@@ -21,7 +21,7 @@ export default function TwoTextAbout() {
         </div>
         <div className={styles.RightText}>
           <p className="text1">
-            filleting fresh fish is a little scary to them. The process of
+            Filleting fresh fish is a little scary to them. The process of
             cleaning and filleting fresh fish is relatively simple once the
             steps are understood. To begin, you must clean your fresh fish
             properly in order to maintain it’s quality.

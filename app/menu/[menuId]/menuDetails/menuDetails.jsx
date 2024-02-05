@@ -19,7 +19,7 @@ export default async function MenuDetails({ menuId }) {
       </div>
       <div className={styles.infoWrapper}>
         <h1>{data.name}</h1>
-        <h2>Ingredients: {data.ingredients}</h2>
+        <h2 className="text1">INGREDIENTS: {data.ingredients}</h2>
         <h3 className="text1">{data.description}</h3>
         <h4>{data.portions}</h4>
         <div className={styles.specifications}>

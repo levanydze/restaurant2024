@@ -19,9 +19,6 @@ export default function MenuPage() {
         <MenuList category="breakfast" />
         <MenuList category="lunch" />
         <MenuList category="dinner" />
-        <MenuList category="popular" />
-        <MenuList category="must try" />
-        <MenuList category="we reccomend" />
         <MenuList category="dessert" />
         <MenuList category="drink" />
       </Suspense>

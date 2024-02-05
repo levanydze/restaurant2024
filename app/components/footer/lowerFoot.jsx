@@ -11,11 +11,13 @@ export default function LowerFoot() {
         by
       </p>
       <Link href="https://www.levanidze.com/" target="_blank">
-        <p className={styles.lighted}>ლევანი</p>
+        <p className={styles.lighted}>Levani</p>
       </Link>
       <div className={styles.divider}></div>
       <p className={styles.dimmed}>Powered by</p>
-      <p className={styles.lighted}> Levanidze</p>
+      <Link href="https://www.levanidze.com/" target="_blank">
+        <p className={styles.lighted}>Levanidze</p>
+      </Link>
       <div className={styles.divider}></div>
       <p className={styles.lighted}> Style Guide</p>
       <div className={styles.divider}></div>

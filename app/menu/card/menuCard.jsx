@@ -27,7 +27,11 @@ export default function MenuCard({
           <p className={styles.dotted}></p>
           <h6>{price} sek</h6>
         </div>
-        <h2>{ingredients}</h2>
+        <h2>
+          {ingredients.length > 40
+            ? ingredients.substring(0, 40) + "..."
+            : ingredients}
+        </h2>
         <div className={styles.details}>
           {portions ? <h5>{portions}</h5> : ""}
           {vegan ? <p className={styles.vegan}>VEGAN</p> : ""}
